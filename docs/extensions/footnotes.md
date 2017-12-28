@@ -1,11 +1,11 @@
-# Footnotes
+# 脚注 Footnotes
 
 [Footnotes][1] is another extension included in the standard Markdown library.
 As the name says, it adds the ability to add footnotes to your documentation.
 
   [1]: https://pythonhosted.org/Markdown/extensions/footnotes.html
 
-## Installation
+## 安装
 
 Add the following lines to your `mkdocs.yml`:
 
@@ -14,7 +14,7 @@ markdown_extensions:
   - footnotes
 ```
 
-## Usage
+## 使用
 
 The markup for footnotes is similar to the standard Markdown markup for links.
 A reference is inserted in the text, which can then be defined at any point in

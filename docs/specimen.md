@@ -1,4 +1,4 @@
-# Specimen
+# 样品
 
 ## Body copy
 

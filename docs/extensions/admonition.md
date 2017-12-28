@@ -1,4 +1,4 @@
-# Admonition
+# 警告 Admonition
 
 [Admonition][1] is an extension included in the standard Markdown library that
 makes it possible to add block-styled side content to your documentation, for
@@ -6,7 +6,7 @@ example summaries, notes, hints or warnings.
 
   [1]: https://pythonhosted.org/Markdown/extensions/admonition.html
 
-## Installation
+## 安装
 
 Add the following lines to your `mkdocs.yml`:
 
@@ -15,7 +15,7 @@ markdown_extensions:
   - admonition
 ```
 
-## Usage
+## 使用
 
 Admonition blocks follow a simple syntax: every block is started with `!!!`,
 followed by a single keyword which is used as the [type qualifier][2] of the
@@ -41,7 +41,7 @@ Result:
 
   [2]: #types
 
-### Changing the title
+### 修改标题
 
 By default, the block title will equal the type qualifier in titlecase. However,
 it can easily be changed by adding a quoted string after the type qualifier.
@@ -63,7 +63,7 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Removing the title
+### 删除标题
 
 Similar to setting a [custom title][3], the icon and title can be omitted by
 providing an empty string after the type qualifier:

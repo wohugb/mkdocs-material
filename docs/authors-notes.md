@@ -1,6 +1,6 @@
 # Author's notes
 
-## Hi, I'm Martin ([@squidfunk][1])
+## 嗨, 我是 Martin ([@squidfunk][1])
 
 I'm a freelance polyglot software engineer and founder from Cologne, Germany
 with more than 10 years of experience in full-stack web development and system
@@ -14,7 +14,7 @@ a complementary service as a replacement for screenshot testing.
   [2]: http://struct.cc/MartinDonathCV.pdf
   [3]: https://github.com/ginseng
 
-## Why another theme?
+## 为什么另一个主题?
 
 Some time ago I wanted to release a project to the open, but it was in need of
 user documentation. I checked out the available tools and sticked with MkDocs,

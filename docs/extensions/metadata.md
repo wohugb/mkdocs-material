@@ -1,15 +1,15 @@
-hero: Yes, this is set via Metadata
+hero: 是的, 这个是通过元数据设定的
 path: tree/master/docs/extensions
 source: metadata.md
 
-# Metadata
+# 元数据 Metadata
 
 The [Metadata][1] extension makes it possible to add metadata to a document
 which gives more control over the theme in a page-specific context.
 
   [1]: https://pythonhosted.org/Markdown/extensions/meta_data.html
 
-## Installation
+## 安装
 
 Add the following lines to your `mkdocs.yml`:
 
@@ -18,7 +18,7 @@ markdown_extensions:
   - meta
 ```
 
-## Usage
+## 使用
 
 Metadata is written as a series of key-value pairs at the beginning of the
 Markdown document, delimited by a blank line which ends the metadata context.
@@ -40,7 +40,7 @@ source: file.js
 
 See the next section which covers the metadata that is supported by Material.
 
-### Setting a hero text
+### 设置 hero 文本
 
 Material exposes a simple text-only page-local hero via Metadata, as you can
 see on the current page when you scroll to the top. It's as simple as:

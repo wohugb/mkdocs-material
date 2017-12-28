@@ -1,4 +1,4 @@
-# Permalinks
+# 永久链接 Permalinks
 
 Permalinks are a feature of the [Table of Contents][1] extension, which is part
 of the standard Markdown library. The extension inserts an anchor at the end of
@@ -7,7 +7,7 @@ document.
 
   [1]: https://pythonhosted.org/Markdown/extensions/toc.html
 
-## Installation
+## 安装
 
 To enable permalinks, add the following to your `mkdocs.yml`:
 
@@ -28,6 +28,6 @@ markdown_extensions:
       permalink: Link
 ```
 
-## Usage
+## 使用
 
 When enabled, permalinks are inserted automatically.

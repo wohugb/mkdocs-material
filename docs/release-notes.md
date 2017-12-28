@@ -1,6 +1,6 @@
-# Release notes
+# 发行说明
 
-## Upgrading
+## 更新
 
 To upgrade Material to the latest version, use pip:
 
@@ -15,7 +15,7 @@ pip show mkdocs-material | grep -E ^Version
 # Version 2.2.5
 ```
 
-### Material 1.x to 2.x
+### 从 Material 1.x 到 2.x
 
 * Material for MkDocs 2.x requires MkDocs 0.17.1, as this version introduced
   changes to the way themes can define options. The following variables inside
@@ -36,7 +36,7 @@ pip show mkdocs-material | grep -E ^Version
 
 * The search tokenizer can now be set through `extra.search.tokenizer`.
 
-## Changelog
+## 更新日志
 
 ### 2.2.5 <small>_ December 18, 2017</small>
 

@@ -1,12 +1,10 @@
-# Getting started
+# 入门
 
-## Installation
+## 安装
 
-### Installing MkDocs
+### 安装 MkDocs
 
-Before installing [MkDocs][1], you need to make sure you have Python and `pip`
-– the Python package manager – up and running. You can verify if you're already
-good to go with the following commands:
+在安装[MkDocs][1]之前, 确认已经安装 Python 和`pip`–Python包管理器– 更新和运行. 使用以下命令验证:
 
 ``` sh
 python --version
@@ -15,43 +13,43 @@ pip --version
 # pip 9.0.1
 ```
 
-Installing and verifying MkDocs is as simple as:
+安装和验证MkDocs是如此简单:
 
 ``` sh
 pip install mkdocs && mkdocs --version
 # mkdocs, version 0.17.1
 ```
 
-Material requires MkDocs >= 0.17.1.
+物料主题需要 MkDocs >= 0.17.1.
 
   [1]: http://www.mkdocs.org
 
-### Installing Material
+### 安装 Material
 
-#### using pip
+#### 使用 pip
 
-Material can be installed with `pip`:
+通过`pip`安装物料:
 
 ``` sh
 pip install mkdocs-material
 ```
 
-#### using choco
+#### 使用 choco
 
-If you're on Windows you can use [Chocolatey][2] to install [Material][3]:
+如果是Windows可以用[Chocolatey][2]安装[Material][3]:
 
 ``` dos
 choco install mkdocs-material
 ```
 
-This will install all required dependencies like [Python][4] and [MkDocs][5].
+这将安装所有的依赖如[Python][4]和[MkDocs][5].
 
   [2]: https://chocolatey.org
   [3]: https://chocolatey.org/packages/mkdocs-material
   [4]: https://chocolatey.org/packages/python
   [5]: https://chocolatey.org/packages/mkdocs
 
-#### cloning from GitHub
+#### 从 GitHub 克隆
 
 Material can also be used without a system-wide installation by cloning the
 repository into a subfolder of your project's root directory:
@@ -67,9 +65,9 @@ This is especially useful if you want to [extend the theme][6] and
   [6]: customization.md#extending-the-theme
   [7]: customization.md#overriding-partials
 
-### Troubleshooting
+### 排障
 
-!!! warning "Installation on macOS"
+!!! warning "macOS上安装"
 
     When you're running the pre-installed version of Python on macOS, `pip`
     tries to install packages in a folder for which your user might not have
@@ -90,7 +88,7 @@ This is especially useful if you want to [extend the theme][6] and
     Material theme through `pip`, so both packages end up in different
     locations. MkDocs only checks its install location for themes.
 
-### Alternative: Using Docker
+### 可选择: 使用 Docker
 
 If you're familiar with Docker, the official [Docker image][8] for Material
 comes with all dependencies pre-installed and ready-to-use with the latest
@@ -109,7 +107,7 @@ docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material
 
   [8]: https://hub.docker.com/r/squidfunk/mkdocs-material/
 
-## Usage
+## 使用
 
 In order to enable the theme just add one of the following lines to your
 project's `mkdocs.yml`. If you installed Material using pip:
@@ -140,9 +138,9 @@ or read on and customize the theme.
 
   [9]: http://localhost:8000
 
-## Configuration
+## 配置
 
-### Color palette
+### 调色板
 
 A default hue is defined for every primary and accent color on Google's
 Material Design [color palette][10], which makes it very easy to change the
@@ -170,11 +168,11 @@ See the guide on [customization][11] for more information.
   [10]: http://www.materialui.co/colors
   [11]: customization.md
 
-#### Primary colors
+#### 原色
 
-> Default: `indigo`
+> 默认: `indigo`
 
-Click on a tile to change the primary color of the theme:
+点击瓦片修改主题原色:
 
 <button data-md-color-primary="red">Red</button>
 <button data-md-color-primary="pink">Pink</button>
@@ -208,7 +206,7 @@ Click on a tile to change the primary color of the theme:
 
 #### Accent colors
 
-> Default: `indigo`
+> 默认: `indigo`
 
 Click on a tile to change the accent color of the theme:
 
@@ -238,9 +236,9 @@ Click on a tile to change the accent color of the theme:
   })
 </script>
 
-### Font family
+### 字体系列
 
-> Default: `Roboto` and `Roboto Mono`
+> 默认: `Roboto` 和 `Roboto Mono`
 
 By default the [Roboto font family][12] is included with the theme, specifically
 the regular sans-serif type for text and the `monospaced` type for code. Both
@@ -267,9 +265,9 @@ theme:
   [13]: https://fonts.google.com
   [14]: https://fonts.google.com/specimen/Ubuntu
 
-### Logo
+### 徽标
 
-> Default icon: `school`
+> 默认 icon: `school`
 
 Your logo should have rectangular shape with a minimum resolution of 128x128,
 leave some room towards the edges and be composed of high contrast areas on a
@@ -292,11 +290,11 @@ theme:
 
   [15]: https://material.io/icons/
 
-### Language
+### 语言
 
-#### Localization
+#### 本地化
 
-> Default: `en`
+> 默认: `en`
 
 Material for MkDocs supports internationalization (i18n) and provides
 translations for all template variables and labels in English `en`, French `fr`,
@@ -324,9 +322,9 @@ Pull Request.
 
   [16]: https://www.w3schools.com/tags/ref_language_codes.asp
 
-#### Site search
+#### 网站搜索
 
-> Default: `en`
+> 默认: `en`
 
 Site search is implemented using [lunr.js][17], which includes stemmers for the
 English language by default, while stemmers for other languages are included
@@ -348,7 +346,7 @@ French `fr`, German `de`, Spanish `es`, Italian `it`, Dutch `du`, Danish `da`,
 Portguese `pt`, Finnish `fi`, Romanian `ro`, Hungarian `hu`, Russian `ru`,
 Norwegian `no`, Swedish `sv`, Japanese `jp` and Turkish `tr`.
 
-!!! info "Search language support for Chinese"
+!!! info "支持中文搜索"
 
     [lunr-languages][18] currently doesn't include a stemmer for Chinese or
     other Asian languages, but some users reported the Japanese stemmer to
@@ -374,7 +372,7 @@ extra:
 
 ### Favicon
 
-> Default: `assets/images/favicon.png`
+> 默认: `assets/images/favicon.png`
 
 The default favicon can be changed by setting the `favicon` variable to an
 `.ico` or image file:
@@ -384,11 +382,11 @@ theme:
   favicon: 'assets/images/favicon.ico'
 ```
 
-### Features
+### 功能
 
 #### Tabs
 
-> Default: `false`
+> 默认: `false`
 
 Material supports another layer on top of the main navigation for larger
 screens in the form of tabs. This is especially useful for larger documentation
@@ -401,9 +399,9 @@ theme:
     tabs: true
 ```
 
-## Customization
+## 自定义
 
-### Adding a source repository
+### 添加源码库
 
 To include a link to the repository of your project within your documentation,
 set the following variables via your project's `mkdocs.yml`:
@@ -434,7 +432,7 @@ set explicitly by setting `extra.repo_icon` to `github`, `gitlab` or
 
   [19]: http://www.mkdocs.org/user-guide/configuration/#edit_uri
 
-### Adding social links
+### 添加社交链接
 
 Social accounts can be linked in the footer of the documentation using the
 automatically included [FontAwesome][20] webfont. The `type` must denote the
@@ -458,16 +456,16 @@ will result in `fa fa-github`.
 
   [20]: http://fontawesome.io/icons/
 
-### More advanced customization
+### 高级自定义
 
   If you want to change the general appearance of the Material theme, see
   [this article][21] for more information on advanced customization.
 
   [21]: customization.md
 
-## Integrations
+## 集成
 
-### Google Analytics
+### 谷歌分析
 
 MkDocs makes it easy to integrate site tracking with Google Analytics.
 Besides basic tracking, clicks on all outgoing links can be tracked as well as
@@ -480,7 +478,7 @@ google_analytics:
   - 'auto'
 ```
 
-### Disqus
+### Disqus评论
 
 Material for MkDocs is integrated with [Disqus][22], so if you want to add a
 comments section to your documentation set the shortname of your Disqus project
@@ -503,7 +501,7 @@ automatically included.
 
   [22]: https://disqus.com
 
-## Extensions
+## 扩展
 
 MkDocs supports several [Markdown extensions][23]. The following extensions
 are not enabled by default (see the link for which are enabled by default)
@@ -536,9 +534,9 @@ Material theme including more information regarding installation and usage:
   [28]: extensions/permalinks.md
   [29]: extensions/pymdown.md
 
-## Full example
+## 完整示例
 
-Below is a full example configuration for a `mkdocs.yml`:
+完整的配置示例 `mkdocs.yml`:
 
 ``` yaml
 # Project information

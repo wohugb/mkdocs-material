@@ -19,8 +19,8 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_description: A Material Design theme for MkDocs
+site_name: 物料主题
+site_description: 一个用于MkDocs的物料设计主题
 site_author: Martin Donath
 site_url: https://squidfunk.github.io/mkdocs-material/
 
@@ -46,7 +46,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: zh
   feature:
     tabs: true
   palette:
@@ -100,21 +100,21 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Material: index.md
-  - Getting started: getting-started.md
-  - Extensions:
-    - Admonition: extensions/admonition.md
-    - CodeHilite: extensions/codehilite.md
-    - Footnotes: extensions/footnotes.md
-    - Metadata: extensions/metadata.md
-    - Permalinks: extensions/permalinks.md
-    - PyMdown: extensions/pymdown.md
-  - Specimen: specimen.md
-  - Customization: customization.md
-  - Release notes: release-notes.md
-  - Author's notes: authors-notes.md
-  - Contributing: contributing.md
-  - License: license.md
+  - 物料: index.md
+  - 入门: getting-started.md
+  - 扩展:
+    - 警告 Admonition: extensions/admonition.md
+    - 代码高亮 CodeHilite: extensions/codehilite.md
+    - 脚注 Footnotes: extensions/footnotes.md
+    - 元数据 Metadata: extensions/metadata.md
+    - 永久链接 Permalinks: extensions/permalinks.md
+    - 扩展 PyMdown: extensions/pymdown.md
+  - 样本: specimen.md
+  - 自定义: customization.md
+  - 发行说明: release-notes.md
+  - 作者笔记: authors-notes.md
+  - 贡献: contributing.md
+  - 许可证: license.md
 
 # Google Analytics
 google_analytics:

@@ -1,32 +1,30 @@
-# Material <small>for MkDocs</small>
+# 物料主题 <small>为MkDocs</small>
 
-## Beautiful project documentation
+## 漂亮的项目文档
 
-Material is a theme for [MkDocs][1], an excellent static site generator geared
-towards project documentation. It is built using Google's [Material Design][2]
-guidelines.
+[MkDocs][1]物料主题, 一个适用于项目文档的优秀的静态站点生成器. 使用谷歌的[物料设计][2]指南构建.
 
 [![Material for MkDocs](assets/images/material.png)](assets/images/material.png)
 
   [1]: http://www.mkdocs.org
   [2]: https://material.io/guidelines/material-design/
 
-## Quick start
+## 快速启动
 
-Install the latest version of Material with `pip`:
+使用`pip`安装最新版的物料:
 
 ``` sh
 pip install mkdocs-material
 ```
 
-Append the following line to your project's `mkdocs.yml`:
+在项目文件`mkdocs.yml`中添加以下行:
 
 ``` yaml
 theme:
   name: 'material'
 ```
 
-## What to expect
+## 有何期望
 
 * Responsive design and fluid layout for all kinds of screens and devices,
   designed to serve your project documentation in a user-friendly way with
@@ -40,6 +38,6 @@ theme:
   <kbd>S</kbd>), intelligent grouping of search results, search term
   highlighting and lazy loading.
 
-For detailed instructions see the [getting started guide][3].
+详细说明请查看[入门指引][3].
 
   [3]: getting-started.md

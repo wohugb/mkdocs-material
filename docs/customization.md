@@ -1,4 +1,4 @@
-# Customization
+# 自定义
 
 ## A great starting point
 

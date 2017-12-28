@@ -1,4 +1,4 @@
-# PyMdown Extensions
+# PyMdown 扩展
 
 [PyMdown Extensions][1] is a collection of Markdown extensions that add some
 great features to the standard Markdown library. For this reason, the
@@ -7,9 +7,9 @@ with the Material theme.
 
   [1]: http://facelessuser.github.io/pymdown-extensions/
 
-## Installation
+## 安装
 
-The PyMdown Extensions package can be installed with the following command:
+可以通过以下命令安装PyMdown扩展包
 
 ``` sh
 pip install pymdown-extensions
@@ -38,7 +38,7 @@ markdown_extensions:
   - pymdownx.tilde
 ```
 
-## Usage
+## 使用
 
 ### Arithmatex <small>MathJax</small>
 
@@ -98,7 +98,7 @@ extra_javascript:
   [4]: http://meta.math.stackexchange.com/questions/5020/
   [5]: ../customization.md#additional-javascript
 
-#### Blocks
+#### 块
 
 Blocks are enclosed in `:::tex $$...$$` which are placed on separate lines.
 
@@ -116,7 +116,7 @@ $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
 $$
 
-#### Inline
+#### 内联
 
 Inline equations need to be enclosed in `:::tex $...$`:
 

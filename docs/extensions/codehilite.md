@@ -1,4 +1,4 @@
-# CodeHilite
+# 代码高亮 CodeHilite
 
 [CodeHilite][1] is an extension that adds syntax highlighting to code blocks
 and is included in the standard Markdown library. The highlighting process is
@@ -14,7 +14,7 @@ executed during compilation of the Markdown file.
   [2]: http://pygments.org
   [3]: https://hub.docker.com/r/squidfunk/mkdocs-material/
 
-## Installation
+## 安装
 
 CodeHilite parses code blocks and wraps them in `pre` tags. If [Pygments][2]
 is installed, which is a generic syntax highlighter with support for over
@@ -42,9 +42,9 @@ markdown_extensions:
 
   [4]: http://pygments.org/languages
 
-## Usage
+## 使用
 
-### Specifying the language
+### 设定语言
 
 The CodeHilite extension uses the same syntax as regular Markdown code blocks,
 but needs to know the language of the code block. This can be done in three
@@ -109,13 +109,13 @@ Result:
     :::python
     import tensorflow as tf
 
-### Adding line numbers
+### 添加行号
 
 Line numbers can be added by enabling the `linenums` flag in your `mkdocs.yml`:
 
 ``` yaml
 markdown_extensions:
-  - codehilite: 
+  - codehilite:
       linenums:true
 ```
 
@@ -142,7 +142,7 @@ Result:
                 if items[j] > items[j + 1]:
                     items[j], items[j + 1] = items[j + 1], items[j]
 
-### Highlighting specific lines
+### 高亮指定行
 
 Specific lines can be highlighted by passing the line numbers to the `hl_lines`
 argument placed right after the language identifier. Line counts start at 1.
@@ -171,7 +171,7 @@ Result:
                     items[j], items[j + 1] = items[j + 1], items[j]
 
 
-## Supported languages <small>excerpt</small>
+## 支持语言 <small>excerpt</small>
 
 CodeHilite uses [Pygments][2], a generic syntax highlighter with support for
 over [300 languages][3], so the following list of examples is just an excerpt.

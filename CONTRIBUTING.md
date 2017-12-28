@@ -1,18 +1,18 @@
-# Contributing
+# 贡献
 
 Interested in contributing to the Material theme? Want to report a bug? Before
 you do, please read the following guidelines.
 
-## Submission context
+## 提交内容
 
-### Got a question or problem?
+### 有问题或问题吗?
 
 For quick questions there's no need to open an issue as you can reach us on
 [gitter.im][1].
 
   [1]: https://gitter.im/squidfunk/mkdocs-material
 
-### Found a bug?
+### 发现错误?
 
 If you found a bug in the source code, you can help us by submitting an issue
 to the [issue tracker][2] in our GitHub repository. Even better, you can submit
@@ -22,7 +22,7 @@ a Pull Request with a fix. However, before doing so, please read the
   [2]: https://github.com/squidfunk/mkdocs-material/issues
   [3]: #submission-guidelines
 
-### Missing a feature?
+### 缺失特征?
 
 You can request a new feature by submitting an issue to our GitHub Repository.
 If you would like to implement a new feature, please submit an issue with a
@@ -40,9 +40,9 @@ it is:
   the master, as it's always a matter of opinion whether if benefits the
   overall functionality of the theme.
 
-## Submission guidelines
+## 提交指南
 
-### Submitting an issue
+### 提交一个问题
 
 Before you submit an issue, please search the issue tracker, maybe an issue for
 your problem already exists and the discussion might inform you of workarounds
@@ -56,21 +56,21 @@ custom issue template. Please stick to the issue template.
 Unfortunately we are not able to investigate / fix bugs without a minimal
 reproduction scenario, so if we don't hear back from you we may close the issue.
 
-### Submitting a Pull Request (PR)
+### 提交一个拉求 (PR)
 
 Search GitHub for an open or closed PR that relates to your submission. You
 don't want to duplicate effort. If you do not find a related issue or PR,
 go ahead.
 
-1. **Development**: Fork the project, set up the [development environment][4],
+1. **开发**: Fork the project, set up the [development environment][4],
   make your changes in a separate git branch and add descriptive messages to
   your commits.
 
-2. **Build**: Before submitting a pull requests, [build the theme][5]. This is
+2. **构建**: Before submitting a pull requests, [build the theme][5]. This is
   a mandatory requirement for your PR to get accepted, as the theme should at
   all times be installable through GitHub.
 
-3. **Pull Request**: After building the theme, commit the compiled output, push
+3. **拉求**: After building the theme, commit the compiled output, push
   your branch to GitHub and send a PR to `mkdocs-material:master`. If we
   suggest changes, make the required updates, rebase your branch and push the
   changes to your GitHub repository, which will automatically update your PR.
