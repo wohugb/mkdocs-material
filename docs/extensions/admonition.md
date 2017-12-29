@@ -22,7 +22,7 @@ followed by a single keyword which is used as the [type qualifier][2] of the
 block. The content of the block then follows on the next line, indented by
 four spaces.
 
-Example:
+示例:
 
 ``` markdown
 !!! note
@@ -31,7 +31,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! note
 
@@ -46,7 +46,7 @@ Result:
 By default, the block title will equal the type qualifier in titlecase. However,
 it can easily be changed by adding a quoted string after the type qualifier.
 
-Example:
+示例:
 
 ``` markdown
 !!! note "Phasellus posuere in sem ut cursus"
@@ -55,7 +55,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! note "Phasellus posuere in sem ut cursus"
 
@@ -68,7 +68,7 @@ Result:
 Similar to setting a [custom title][3], the icon and title can be omitted by
 providing an empty string after the type qualifier:
 
-Example:
+示例:
 
 ``` markdown
 !!! note ""
@@ -77,7 +77,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! note ""
 
@@ -87,7 +87,7 @@ Result:
 
   [3]: #changing-the-title
 
-### Embedded code blocks
+### 内嵌代码块
 
 Blocks can contain all kinds of text content, including headlines, lists,
 paragraphs and other blocks – except code blocks, because the parser from the
@@ -100,7 +100,7 @@ blocks, respectively Admonition blocks.
   [4]: https://facelessuser.github.io/pymdown-extensions
   [5]: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
 
-Example:
+示例:
 
 !!! note
 
@@ -128,13 +128,13 @@ Example:
     sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
     Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.
 
-### Collapsible blocks
+### 折叠块
 
-The [Details][6] extension which is also part of the [PyMdown Extensions][4]
+[Details][6] 扩展 which is also part of the [PyMdown Extensions][4]
 package adds support for rendering collapsible Admonition blocks. This is
 useful for FAQs or content that is of secondary nature.
 
-Example:
+示例:
 
 ``` markdown
 ??? note "Phasellus posuere in sem ut cursus"
@@ -143,7 +143,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 ??? note "Phasellus posuere in sem ut cursus"
 
@@ -156,16 +156,16 @@ open by default.
 
   [6]: https://facelessuser.github.io/pymdown-extensions/extensions/details/
 
-## Types
+## 类型
 
 Admonition supports user-defined type qualifiers which may influence the style
 of the inserted block. Following is a list of type qualifiers provided by the
 Material theme, whereas the default type, and thus fallback for unknown type
 qualifiers, is `note`.
 
-### Note
+### 注释
 
-Example:
+示例:
 
 ``` markdown
 !!! note
@@ -174,7 +174,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! note
 
@@ -182,14 +182,14 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `note`
 * `seealso`
 
-### Summary
+### 概要
 
-Example:
+示例:
 
 ``` markdown
 !!! summary
@@ -198,7 +198,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! summary
 
@@ -206,14 +206,14 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定符:
 
 * `summary`
 * `tldr`
 
-### Info
+### 信息
 
-Example:
+示例:
 
 ``` markdown
 !!! info
@@ -222,7 +222,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! info
 
@@ -230,14 +230,14 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `info`
 * `todo`
 
-### Tip
+### 小贴士
 
-Example:
+示例:
 
 ``` markdown
 !!! tip
@@ -246,7 +246,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! tip
 
@@ -254,15 +254,15 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `tip`
 * `hint`
 * `important`
 
-### Success
+### 成功
 
-Example:
+示例:
 
 ``` markdown
 !!! success
@@ -271,7 +271,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! success
 
@@ -279,15 +279,15 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `success`
 * `check`
 * `done`
 
-### Question
+### 问题
 
-Example:
+示例:
 
 ``` markdown
 !!! question
@@ -296,7 +296,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! question
 
@@ -304,15 +304,15 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `question`
 * `help`
 * `faq`
 
-### Warning
+### 警告
 
-Example:
+示例:
 
 ``` markdown
 !!! warning
@@ -321,7 +321,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! warning
 
@@ -329,15 +329,15 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `warning`
 * `caution`
 * `attention`
 
-### Failure
+### 失败
 
-Example:
+示例:
 
 ``` markdown
 !!! failure
@@ -346,7 +346,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! failure
 
@@ -354,15 +354,15 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `failure`
 * `fail`
 * `missing`
 
-### Danger
+### 危险
 
-Example:
+示例:
 
 ``` markdown
 !!! danger
@@ -371,7 +371,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! danger
 
@@ -379,14 +379,14 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `danger`
 * `error`
 
-### Bug
+### 缺陷
 
-Example:
+示例:
 
 ``` markdown
 !!! bug
@@ -395,7 +395,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! bug
 
@@ -403,13 +403,13 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `bug`
 
-### Quote
+### 引用
 
-Example:
+示例:
 
 ``` markdown
 !!! quote
@@ -418,7 +418,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
 !!! quote
 
@@ -426,7 +426,7 @@ Result:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-Qualifiers:
+限定:
 
 * `quote`
 * `cite`

@@ -20,13 +20,13 @@
 
 # Project information
 site_name: 物料主题
-site_description: 一个用于MkDocs的物料设计主题
-site_author: Martin Donath
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_description: 一个用于MkDocs的物料设计主题-中文文档翻译
+site_author: Nosy
+site_url: https://wohugb.github.io/mkdocs-material/
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: wohugb/mkdocs-material
+repo_url: https://github.com/wohugb/mkdocs-material
 edit_uri: ""
 
 # Copyright

@@ -25,7 +25,7 @@ Markdown document, delimited by a blank line which ends the metadata context.
 Naturally, the metadata is stripped from the document before rendering the
 actual page content and made available to the theme.
 
-Example:
+示例:
 
 ``` markdown
 title: Lorem ipsum dolor sit amet
@@ -93,7 +93,7 @@ path: tree/master/docs/extensions
 source: metadata.md
 ```
 
-Result:
+结果:
 
 See the [source][2] section for the resulting output.
 

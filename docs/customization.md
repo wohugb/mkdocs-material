@@ -1,13 +1,13 @@
 # 自定义
 
-## A great starting point
+## 一个伟大的起点
 
 Project documentation is as diverse as the projects themselves and the Material
 theme is a good starting point for making it look great. However, as you write
 your documentation, you may reach a point where some small adjustments are
 necessary to preserve the desired style.
 
-## Adding assets
+## 增加资产
 
 [MkDocs][1] provides several ways to interfere with themes. In order to make a
 few tweaks to an existing theme, you can just add your stylesheets and
@@ -15,7 +15,7 @@ JavaScript files to the `docs` directory.
 
   [1]: http://www.mkdocs.org
 
-### Additional stylesheets
+### 扩展样式表
 
 If you want to tweak some colors or change the spacing of certain elements,
 you can do this in a separate stylesheet. The easiest way is by creating a
@@ -37,7 +37,7 @@ Spin up the development server with `mkdocs serve` and start typing your
 changes in your additional stylesheet file – you can see them instantly after
 saving, as the MkDocs development server implements live reloading.
 
-### Additional JavaScript
+### 扩展 JavaScript
 
 The same is true for additional JavaScript. If you want to integrate another
 syntax highlighter or add some custom logic to your theme, create a new
@@ -59,7 +59,7 @@ Further assistance can be found in the [MkDocs documentation][2].
 
   [2]: http://www.mkdocs.org/user-guide/styling-your-docs/#customizing-a-theme
 
-## Extending the theme
+## 扩展主题
 
 If you want to alter the HTML source (e.g. add or remove some part), you can
 extend the theme. From version 0.16 on MkDocs implements [theme extension][3],
@@ -68,7 +68,7 @@ main theme.
 
   [3]: http://www.mkdocs.org/user-guide/styling-your-docs/#using-the-theme_dir
 
-### Setup and theme structure
+### 设置主题结构
 
 Reference the Material theme as usual in your `mkdocs.yml`, and create a
 new folder for overrides, e.g. `theme`, which you reference using `custom_dir`:
@@ -118,14 +118,14 @@ The directory layout of the Material theme is as follows:
 └─ main.html                           # Default page
 ```
 
-### Overriding partials
+### 重写部件
 
 In order to override the footer, we can replace the `footer.html` partial with
 our own partial. To do this, create the file `partials/footer.html` in the
 theme directory. MkDocs will now use the new partial when rendering the theme.
 This can be done with any file.
 
-### Overriding template blocks
+### 重写模板块
 
 Besides overriding partials, one can also override so called template blocks,
 which are defined inside the Material theme and wrap specific features. To
@@ -142,7 +142,7 @@ define the block, e.g.:
 
 The Material theme provides the following template blocks:
 
-| Block name   | Wrapped contents                                |
+|     块名      |           包装内容                               |
 | ------------ | ----------------------------------------------- |
 | `analytics`  | Wraps the Google Analytics integration          |
 | `content`    | Wraps the main content                          |
@@ -168,7 +168,7 @@ For more on this topic refer to the [MkDocs documentation][4]
 
   [4]: http://www.mkdocs.org/user-guide/styling-your-docs/#overriding-template-blocks
 
-## Theme development
+## 主题开发
 
 The Material theme uses [Webpack][5] as a build tool to leverage modern web
 technologies like [Babel][6] and [SASS][7]. If you want to make more fundamental
@@ -179,7 +179,7 @@ the Material theme and recompile it. This is fairly easy.
   [6]: https://babeljs.io
   [7]: http://sass-lang.com
 
-### Environment setup
+### 环境设置
 
 In order to start development on the Material theme, a [Node.js][8] version of
 at least 8 is required, as well as the package manager [yarn][9] which is a
@@ -200,7 +200,7 @@ yarn install
   [8]: https://nodejs.org
   [9]: https://yarnpkg.com/
 
-### Development mode
+### 开发模式
 
 The development server can be started with:
 
@@ -229,7 +229,7 @@ $md-color-accent:  $clr-teal-a700;
 
   [10]: http://localhost:8000
 
-### Build process
+### 构建过程
 
 When you've finished making your changes, you can build the theme by invoking:
 

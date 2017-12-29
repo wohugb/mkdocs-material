@@ -27,13 +27,13 @@ followed by an arbitrary label which may contain numeric identifiers [1, 2, 3,
 ...] or names [Granovetter et al. 1998]. The rendered references are always
 consecutive superscripted numbers.
 
-Example:
+示例:
 
 ``` markdown
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 ```
 
-Result:
+结果:
 
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
@@ -48,13 +48,13 @@ backlink is automatically added to the footnote reference.
 
 Short statements can be written on the same line.
 
-Example:
+示例:
 
 ``` markdown
 [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
-Result:
+结果:
 
 <a href="#fn:1">Jump to footnote at the bottom of the page</a>
 
@@ -65,7 +65,7 @@ Result:
 Paragraphs should be written on the next line. As with all Markdown blocks, the
 content must be indented by four spaces.
 
-Example:
+示例:
 
 ``` markdown
 [^2]:
@@ -74,7 +74,7 @@ Example:
     massa, nec semper lorem quam in massa.
 ```
 
-Result:
+结果:
 
   [^2]:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod

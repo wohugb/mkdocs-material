@@ -1,6 +1,6 @@
 # 样品
 
-## Body copy
+## 广告正文
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,
 mollis sed massa vel, *ornare viverra ex*. Mauris a ullamcorper lacus. Nullam
@@ -14,7 +14,7 @@ eros. [Nulla aliquam](/) orci sit amet nisl posuere malesuada. Proin aliquet
 nulla velit, quis ultricies orci feugiat et. `Ut tincidunt sollicitudin`
 tincidunt. Aenean ullamcorper sit amet nulla at interdum.
 
-## Headings
+## 标题
 
 ### The 3rd level
 
@@ -24,7 +24,7 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
 
 ###### The 6th level
 
-## Headings <small>with secondary text</small>
+## 标题 <small>小标题</small>
 
 ### The 3rd level <small>with secondary text</small>
 
@@ -34,7 +34,7 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
 
 ###### The 6th level <small>with secondary text</small>
 
-## Blockquotes
+## 引用
 
 > Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum.
   Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc
@@ -42,7 +42,7 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
   litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie
   imperdiet consectetur.
 
-### Blockquote nesting
+### 引用嵌套
 
 > **Sed aliquet**, neque at rutrum mollis, neque nisi tincidunt nibh, vitae
   faucibus lacus nunc at lacus. Nunc scelerisque, quam id cursus sodales, lorem
@@ -57,7 +57,7 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
       Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec leo
       bibendum, sodales mauris ut, tincidunt massa.
 
-### Other content blocks
+### 其它内容块
 
 > Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu
   lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,
@@ -78,9 +78,9 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
       vel lacinia lacus. Suspendisse rhoncus nunc non nisi iaculis ultrices.
       Donec consectetur mauris non neque imperdiet, eget volutpat libero.
 
-## Lists
+## 列表
 
-### Unordered lists
+### 无序表
 
 * Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus
   non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,
@@ -98,7 +98,7 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
   accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh
   lacinia sed. Aenean in finibus diam.
 
-### Ordered lists
+### 有序表
 
 1. Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis
   elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla
@@ -137,7 +137,7 @@ tincidunt. Aenean ullamcorper sit amet nulla at interdum.
   sagittis. Aliquam purus tellus, faucibus eget urna at, iaculis venenatis
   nulla. Vivamus a pharetra leo.
 
-### Definition lists
+### 定义列表
 
 Lorem ipsum dolor sit amet
 
@@ -155,9 +155,9 @@ Cras arcu libero
     ut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at
     aliquam ac, aliquet sed mauris.
 
-## Code blocks
+## 代码块
 
-### Inline
+### 行内
 
 Morbi eget `dapibus felis`. Vivamus *`venenatis porttitor`* tortor sit amet
 rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
@@ -168,7 +168,7 @@ Nam vehicula nunc `:::js return target` mauris, a ultricies libero efficitur
 sed. Sed molestie imperdiet consectetur. Vivamus a pharetra leo. Pellentesque
 eget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.
 
-### Listing
+### 列表
 
     #!js hl_lines="8"
     var _extends = function(target) {
@@ -181,7 +181,7 @@ eget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.
       return target;
     };
 
-## Horizontal rules
+## 水平线
 
 Aenean in finibus diam. Duis mollis est eget nibh volutpat, fermentum aliquet
 dui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna
@@ -193,7 +193,7 @@ Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis
 elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla
 consectetur feugiat sodales.
 
-## Data tables
+## 数据表格
 
 | Sollicitudo / Pellentesi | consectetur | adipiscing | elit    | arcu | sed |
 | ------------------------ | ----------- | ---------- | ------- | ---- | --- |

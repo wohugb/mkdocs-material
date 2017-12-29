@@ -139,14 +139,14 @@ start and end tokens. Read the documentation for [usage notes][7].
   [6]: https://facelessuser.github.io/pymdown-extensions/extensions/betterem/
   [7]: https://facelessuser.github.io/pymdown-extensions/usage_notes/
 
-### Caret
+### 脱字符 Caret
 
 [Caret][8] makes it possible to highlight ^^inserted text^^. The portion of
 text that should be marked as added must be enclosed in two carets `^^...^^`.
 
   [8]: https://facelessuser.github.io/pymdown-extensions/extensions/caret/
 
-### Critic
+### 苛求 Critic
 
 [Critic][9] implements [Critic Markup][10], a Markdown extension that enables
 the tracking of changes (additions, deletions and comments) on documents.
@@ -167,7 +167,7 @@ tags on separate lines and adding new lines between the tags and the content.
   [9]: https://facelessuser.github.io/pymdown-extensions/extensions/critic/
   [10]: http://criticmarkup.com/
 
-### Details
+### 详情 Details
 
 [Details][11] adds collapsible [Admonition-style blocks][12] which can contain
 arbitrary content using the HTML5 `details` and `summary` tags. Additionally,
@@ -180,7 +180,7 @@ all Admonition qualifiers can be used, e.g. `note`, `question`, `warning` etc.:
   [11]: https://facelessuser.github.io/pymdown-extensions/extensions/details/
   [12]: admonition.md
 
-### Emoji
+### 表情符号 Emoji
 
 [Emoji][13] adds the ability to insert a :shit:-load of emojis that we use in
 our daily lives. See the [EmojiOne demo][14] for a list of all available
@@ -198,7 +198,7 @@ emojis. Happy scrolling :tada:
   [16]: https://creativecommons.org/licenses/by/4.0/legalcode
   [17]: http://emojione.com/licensing/
 
-### InlineHilite
+### 行内高亮
 
 [InlineHilite][18] adds support for inline code highlighting. It's useful for
 short snippets included within body copy, e.g. `#!js var test = 0;` and can be
@@ -207,7 +207,7 @@ e.g. `#!js`.
 
   [18]: https://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/
 
-### MagicLink
+### 自动加链接
 
 [MagicLink][19] detects links in Markdown and auto-generates the necessary
 markup, so no special syntax is required. It auto-links `http[s]://` and
@@ -215,7 +215,7 @@ markup, so no special syntax is required. It auto-links `http[s]://` and
 
   [19]: https://facelessuser.github.io/pymdown-extensions/extensions/magiclink/
 
-### Mark
+### 标记
 
 [Mark][20] adds the ability to ==highlight text== like it was marked with a
 ==text marker==. The portion of text that should be highlighted must be
@@ -240,14 +240,14 @@ from the standard Markdown library doesn't parse correctly.
   [22]: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
   [23]: https://pythonhosted.org/Markdown/extensions/fenced_code_blocks.html
 
-### Tasklist
+### 任务列表
 
 [Tasklist][24] adds support for styled checkbox lists. This is useful for
 keeping track of tasks and showing what has been done and has yet to be done.
 Checkbox lists are like regular lists, but prefixed with `[ ]` for empty or
 `[x]` for filled checkboxes.
 
-Example:
+示例:
 
 ``` markdown
 * [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -262,7 +262,7 @@ Example:
 * [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
 ```
 
-Result:
+结果:
 
 * [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
 * [x] Nulla lobortis egestas semper
@@ -277,7 +277,7 @@ Result:
 
 [24]: https://facelessuser.github.io/pymdown-extensions/extensions/tasklist/
 
-### Tilde
+### 波浪号
 
 [Tilde][25] provides an easy way to ~~strike through~~ cross out text.
 The portion of text that should be erased must be enclosed in two tildes
