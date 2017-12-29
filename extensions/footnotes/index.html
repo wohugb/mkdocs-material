@@ -10,13 +10,13 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="一个用于MkDocs的物料设计主题">
+        <meta name="description" content="一个用于MkDocs的物料设计主题-中文文档翻译">
       
       
-        <link rel="canonical" href="https://squidfunk.github.io/mkdocs-material/extensions/footnotes/">
+        <link rel="canonical" href="https://wohugb.github.io/mkdocs-material/extensions/footnotes/">
       
       
-        <meta name="author" content="Martin Donath">
+        <meta name="author" content="Nosy">
       
       
         <meta name="lang:clipboard.copy" content="复制">
@@ -83,7 +83,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://squidfunk.github.io/mkdocs-material/" title="物料主题" class="md-header-nav__button md-logo">
+        <a href="https://wohugb.github.io/mkdocs-material/" title="物料主题" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -143,7 +143,7 @@
   
 
 
-  <a href="https://github.com/squidfunk/mkdocs-material" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  <a href="https://github.com/wohugb/mkdocs-material" title="前往 Github 仓库" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -152,7 +152,7 @@
       </div>
     
     <div class="md-source__repository">
-      squidfunk/mkdocs-material
+      wohugb/mkdocs-material
     </div>
   </a>
 
@@ -241,7 +241,7 @@
   
 
 
-  <a href="https://github.com/squidfunk/mkdocs-material" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  <a href="https://github.com/wohugb/mkdocs-material" title="前往 Github 仓库" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -250,7 +250,7 @@
       </div>
     
     <div class="md-source__repository">
-      squidfunk/mkdocs-material
+      wohugb/mkdocs-material
     </div>
   </a>
 
@@ -642,11 +642,11 @@ the document.</p>
 followed by an arbitrary label which may contain numeric identifiers [1, 2, 3,
 ...] or names [Granovetter et al. 1998]. The rendered references are always
 consecutive superscripted numbers.</p>
-<p>Example:</p>
+<p>示例:</p>
 <div class="codehilite"><pre><span></span>Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 </pre></div>
 
-<p>Result:</p>
+<p>结果:</p>
 <p>Lorem ipsum<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> dolor sit amet, consectetur adipiscing elit.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></p>
 <h3 id="inserting-the-content">Inserting the content<a class="headerlink" href="#inserting-the-content" title="Permanent link">&para;</a></h3>
 <p>The footnote content is also declared with a label, which must match the label
@@ -655,23 +655,23 @@ the document and is always rendered at the bottom of the page. Furthermore, a
 backlink is automatically added to the footnote reference.</p>
 <h4 id="on-a-single-line">on a single line<a class="headerlink" href="#on-a-single-line" title="Permanent link">&para;</a></h4>
 <p>Short statements can be written on the same line.</p>
-<p>Example:</p>
+<p>示例:</p>
 <div class="codehilite"><pre><span></span>[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </pre></div>
 
-<p>Result:</p>
+<p>结果:</p>
 <p><a href="#fn:1">Jump to footnote at the bottom of the page</a></p>
 <h4 id="on-multiple-lines">on multiple lines<a class="headerlink" href="#on-multiple-lines" title="Permanent link">&para;</a></h4>
 <p>Paragraphs should be written on the next line. As with all Markdown blocks, the
 content must be indented by four spaces.</p>
-<p>Example:</p>
+<p>示例:</p>
 <div class="codehilite"><pre><span></span>[^2]:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 </pre></div>
 
-<p>Result:</p>
+<p>结果:</p>
 <p><a href="#fn:2">Jump to footnote at the bottom of the page</a></p>
 <div class="footnote">
 <hr />
