@@ -7,7 +7,7 @@ As the name says, it adds the ability to add footnotes to your documentation.
 
 ## 安装
 
-Add the following lines to your `mkdocs.yml`:
+添加以下行到你的 `mkdocs.yml`:
 
 ``` yaml
 markdown_extensions:
@@ -20,7 +20,7 @@ The markup for footnotes is similar to the standard Markdown markup for links.
 A reference is inserted in the text, which can then be defined at any point in
 the document.
 
-### Inserting the reference
+### 插入引用
 
 The footnote reference is enclosed in square brackets and starts with a caret,
 followed by an arbitrary label which may contain numeric identifiers [1, 2, 3,
@@ -37,16 +37,16 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
-### Inserting the content
+### 插入内容
 
 The footnote content is also declared with a label, which must match the label
 used for the footnote reference. It can be inserted at an arbitrary position in
 the document and is always rendered at the bottom of the page. Furthermore, a
 backlink is automatically added to the footnote reference.
 
-#### on a single line
+#### 单行
 
-Short statements can be written on the same line.
+简短说明可以写在一行.
 
 示例:
 
@@ -60,7 +60,7 @@ Short statements can be written on the same line.
 
   [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-#### on multiple lines
+#### 多行
 
 Paragraphs should be written on the next line. As with all Markdown blocks, the
 content must be indented by four spaces.

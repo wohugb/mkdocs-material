@@ -11,7 +11,7 @@ which gives more control over the theme in a page-specific context.
 
 ## 安装
 
-Add the following lines to your `mkdocs.yml`:
+添加以下行到你的 `mkdocs.yml`:
 
 ``` yaml
 markdown_extensions:

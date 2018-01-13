@@ -9,7 +9,7 @@ document.
 
 ## 安装
 
-To enable permalinks, add the following to your `mkdocs.yml`:
+开启 permalinks, 添加以下行到你的 `mkdocs.yml`:
 
 ``` yaml
 markdown_extensions:

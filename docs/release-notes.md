@@ -2,7 +2,7 @@
 
 ## 更新
 
-To upgrade Material to the latest version, use pip:
+更新 Material 到最新版本, 使用 pip:
 
 ``` sh
 pip install --upgrade mkdocs-material

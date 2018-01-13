@@ -85,7 +85,7 @@ window.MathJax = {
 };
 ```
 
-In your `mkdocs.yml`, include it with:
+在你的 `mkdocs.yml`, 引入:
 
 ``` yaml
 extra_javascript:
@@ -102,7 +102,7 @@ extra_javascript:
 
 Blocks are enclosed in `:::tex $$...$$` which are placed on separate lines.
 
-Example:
+举例:
 
 ``` tex
 $$
@@ -110,7 +110,7 @@ $$
 $$
 ```
 
-Result:
+结果:
 
 $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
@@ -120,13 +120,13 @@ $$
 
 Inline equations need to be enclosed in `:::tex $...$`:
 
-Example:
+举例:
 
 ``` tex
 Lorem ipsum dolor sit amet: $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
 ```
 
-Result:
+结果:
 
 Lorem ipsum dolor sit amet: $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
 

@@ -1,3 +1,7 @@
+hero: 各种提示框
+path: tree/master/docs/extensions
+source: admonition.md
+
 # 警告 Admonition
 
 [Admonition][1] is an extension included in the standard Markdown library that
@@ -8,7 +12,7 @@ example summaries, notes, hints or warnings.
 
 ## 安装
 
-Add the following lines to your `mkdocs.yml`:
+添加以下行到你的 `mkdocs.yml`:
 
 ``` yaml
 markdown_extensions:
@@ -43,7 +47,7 @@ four spaces.
 
 ### 修改标题
 
-By default, the block title will equal the type qualifier in titlecase. However,
+默认, the block title will equal the type qualifier in titlecase. However,
 it can easily be changed by adding a quoted string after the type qualifier.
 
 示例:
