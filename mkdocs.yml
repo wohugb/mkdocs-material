@@ -30,7 +30,7 @@ repo_url: https://github.com/wohugb/mkdocs-material
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
+copyright: "Copyright &copy; 2016 - 2017 Martin Donath"
 
 # Configuration
 theme:
@@ -99,16 +99,16 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-pages:
+nav:
   - 物料: index.md
   - 入门: getting-started.md
   - 扩展:
-    - 警告 Admonition: extensions/admonition.md
-    - 代码高亮 CodeHilite: extensions/codehilite.md
-    - 脚注 Footnotes: extensions/footnotes.md
-    - 元数据 Metadata: extensions/metadata.md
-    - 永久链接 Permalinks: extensions/permalinks.md
-    - 扩展 PyMdown: extensions/pymdown.md
+      - 警告 Admonition: extensions/admonition.md
+      - 代码高亮 CodeHilite: extensions/codehilite.md
+      - 脚注 Footnotes: extensions/footnotes.md
+      - 元数据 Metadata: extensions/metadata.md
+      - 永久链接 Permalinks: extensions/permalinks.md
+      - 扩展 PyMdown: extensions/pymdown.md
   - 样本: specimen.md
   - 自定义: customization.md
   - 发行说明: release-notes.md
